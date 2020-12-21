@@ -1,0 +1,121 @@
+.header-main {
+    margin-top: 65px;
+    transition: all 2s;
+}
+
+.logo-text {
+    color: black;
+}
+
+.nav-item {
+    font-size: medium;
+}
+
+@media only screen and (min-width: 332px) {
+    .header-main {
+        margin-top: 150px;
+        transition: all 2s;
+    }
+}
+
+@media only screen and (min-width: 575px) {
+    .header-main {
+        margin-top: 150px;
+        transition: all 2s;
+    }
+}
+
+@media only screen and (min-width: 770px) {
+    .header-main {
+        margin-top: 110px;
+        transition: all 2s;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    .header-main {
+        margin-top: 65px;
+        transition: all 2s;
+    }
+}
+
+.intro {
+    background-image: url("../images/banners/WEB_CATPAHGE_APPLE_iPhone_12_mini_cat_banners_mobile\ \(1\).png");
+    background-size: cover;
+}
+
+.home-newsletter {
+    padding: 50px 0;
+    background: #f17916;
+}
+
+.home-newsletter .single {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.home-newsletter .single h2 {
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.home-newsletter .single .form-control {
+    height: 50px;
+    background: rgba(255, 255, 255, 0.6);
+    border-color: transparent;
+    border-radius: 20px 0 0 20px;
+}
+
+.home-newsletter .single .form-control:focus {
+    box-shadow: none;
+    border-color: #243c4f;
+}
+
+.home-newsletter .single .btn {
+    min-height: 50px;
+    border-radius: 0 20px 20px 0;
+    background: #243c4f;
+    color: #fff;
+}
+
+td {
+    width: 200px;
+}
+
+
+/* stiluri pentru pagina Contacte */
+
+.map-container-section {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container-section iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+/* adaugate */
+
+.md-form i {
+    background: #5bc0de;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.ic i {
+    background: #5bc0de;
+    padding: 15px;
+    border-radius: 100%;
+}
